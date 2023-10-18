@@ -1,3 +1,5 @@
+package myproject.armor;
+
 public class LightArmor implements IArmor {
     @Override
     public void wearArmor() {

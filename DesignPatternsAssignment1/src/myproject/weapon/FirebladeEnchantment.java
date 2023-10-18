@@ -1,3 +1,5 @@
+package myproject.weapon;
+
 public class FirebladeEnchantment extends WeaponDecorator{
     public FirebladeEnchantment(IWeapon decoratedWeapon){
         super(decoratedWeapon);

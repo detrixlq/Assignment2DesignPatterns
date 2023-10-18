@@ -1,3 +1,5 @@
+package myproject.weapon;
+
 public class SharpnessEnchantment extends WeaponDecorator{
     public SharpnessEnchantment(IWeapon decoratedWeapon){
         super(decoratedWeapon);

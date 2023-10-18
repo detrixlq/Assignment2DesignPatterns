@@ -1,3 +1,5 @@
+package myproject.weapon;
+
 public class AxeWeapon implements IWeapon {
     @Override
     public void useWeapon() {

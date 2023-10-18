@@ -1,3 +1,5 @@
+package myproject.weapon;
+
 public abstract class WeaponDecorator implements IWeapon{
     protected IWeapon decoratedWeapon;
 

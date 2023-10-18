@@ -1,4 +1,9 @@
-class Character {
+package myproject.character;
+import myproject.weapon.*;
+import myproject.armor.*;
+import myproject.skill.*;
+
+public class Character {
     private IWeapon weapon;
     private ISkill skill;
     private IArmor armor;

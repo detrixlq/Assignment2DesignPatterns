@@ -1,3 +1,5 @@
+package myproject.skill;
+
 public class CullingSkill implements ISkill {
     @Override
     public void useSkill() {

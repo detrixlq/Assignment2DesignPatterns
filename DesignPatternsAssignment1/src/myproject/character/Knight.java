@@ -1,4 +1,9 @@
-class Knight extends Character{
+package myproject.character;
+import myproject.weapon.*;
+import myproject.armor.*;
+import myproject.skill.*;
+
+public class Knight extends Character{
     @Override
     public void displayCharacter() {
         System.out.println("I am a knight");

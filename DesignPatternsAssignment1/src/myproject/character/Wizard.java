@@ -1,3 +1,8 @@
+package myproject.character;
+import myproject.weapon.*;
+import myproject.armor.*;
+import myproject.skill.*;
+
 class Wizard extends Character{
     @Override
     public void displayCharacter() {
