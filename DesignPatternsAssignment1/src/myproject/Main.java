@@ -10,11 +10,10 @@ public class Main {
         System.out.println("The Battle Begins!");
         System.out.println("...");
 
-        IWeapon Sword = new SwordWeapon();
-        IWeapon SharpnessSword = new SharpnessEnchantment(Sword);
-        IWeapon FireSharpnessSword = new FirebladeEnchantment(SharpnessSword);
+        FireSkill fireball = new FireSkill();
+        IWeapon FireballWeapon = new FireballAdapter(fireball);
 
-        myproject.character.Character knight = new Knight(FireSharpnessSword, new HeavyArmor(), new SwordplaySkill());
+        myproject.character.Character knight = new Knight(FireballWeapon, new HeavyArmor(), new SwordplaySkill());
         knight.displayCharacter();
         knight.performAttack();
         knight.performDefence();
