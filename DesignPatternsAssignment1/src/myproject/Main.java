@@ -13,7 +13,11 @@ public class Main {
         FireSkill fireball = new FireSkill();
         IWeapon FireballWeapon = new FireballAdapter(fireball);
 
-        myproject.character.Character knight = new Knight(FireballWeapon, new HeavyArmor(), new SwordplaySkill());
+        IArmor knightArmor = new HeavyArmor();
+
+        ISkill knightSkill = new SwordplaySkill();
+
+        myproject.character.Character knight = new Knight(FireballWeapon, knightArmor, knightSkill);
         knight.displayCharacter();
         knight.performAttack();
         knight.performDefence();
